@@ -3,6 +3,7 @@ import { v4 } from 'uuid';
 const cardsInfo = [
 	{
 		id: v4(),
+		backgroundImage: 'url(/public/bg-pattern-quotation.svg)',
 		backgroundColor: '#733FC8',
 		positionColumn: '1/3',
 		positionRow: '1/2',
@@ -17,6 +18,7 @@ const cardsInfo = [
 	},
 	{
 		id: v4(),
+		backgroundImage: 'none',
 		backgroundColor: '#48556A',
 		positionColumn: '3/4',
 		positionRow: '1/2',
@@ -30,6 +32,7 @@ const cardsInfo = [
 	},
 	{
 		id: v4(),
+		backgroundImage: 'none',
 		backgroundColor: '#FFFFFF',
 		positionColumn: '1/2',
 		positionRow: '2/3',
@@ -43,6 +46,7 @@ const cardsInfo = [
 	},
 	{
 		id: v4(),
+		backgroundImage: 'none',
 		backgroundColor: '#19202D',
 		positionColumn: '2/4',
 		positionRow: '2/3',
@@ -57,6 +61,7 @@ const cardsInfo = [
 	},
 	{
 		id: v4(),
+		backgroundImage: 'none',
 		backgroundColor: 'white',
 		positionColumn: '4/5',
 		positionRow: '1/3',

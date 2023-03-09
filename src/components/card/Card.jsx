@@ -1,8 +1,8 @@
 import { StyledCard, StyledQuote, StyledSmallText, StyledText, StyledUserContainer, StyledUserIcon, StyledUserTextContainer } from "./styles"
 
 
-const Card = ({backgroundColor, positionColumn, textColor, smallTextColor, iconImage, userName, quoteText, text, marginBottomQuote, positionRow }) => {
-    return <StyledCard backgroundColor={backgroundColor} positionColumn={positionColumn} positionRow={positionRow}>
+const Card = ({backgroundColor, positionColumn, textColor, smallTextColor, iconImage, userName, quoteText, text, marginBottomQuote, positionRow, backgroundImage }) => {
+    return <StyledCard backgroundColor={backgroundColor} positionColumn={positionColumn} positionRow={positionRow} backgroundImage={backgroundImage}>
         <StyledUserContainer>
             <StyledUserIcon src= {iconImage}></StyledUserIcon>
             <StyledUserTextContainer>

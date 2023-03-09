@@ -4,11 +4,28 @@ const StyledCard = styled.div`
 	background-color: ${({ backgroundColor }) => backgroundColor};
 	padding: 2rem;
 	border-radius: 8px;
+	position: relative;
+	z-index: 0;
+
+	&::after {
+		content: '';
+		position: absolute;
+		background-image: ${({ backgroundImage }) => backgroundImage};
+		width: 100px;
+		height: 100px;
+		top: 0;
+		right: 1.5rem;
+		z-index: -1;
+	}
 
 	@media screen and (min-width: 1322px) {
 		grid-column: ${({ positionColumn }) => positionColumn};
 		grid-row: ${({ positionRow }) => positionRow};
 		padding: 1.5rem 2rem 1.5rem 2rem;
+
+		&::after {
+			right: 5rem;
+		}
 	}
 `;
 
