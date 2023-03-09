@@ -1,4 +1,10 @@
+*{
+	box-sizing: border-box;
+}
 body {
 	font-family: sans-serif;
 	margin: 0;
+	background-color:#F2F2F2;;
+	max-width: 1440px;
+	margin: auto;
 }
